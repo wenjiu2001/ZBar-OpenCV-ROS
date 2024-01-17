@@ -1,6 +1,6 @@
 <launch>
-  <!-- turn on webcam -->
+  <!-- Turn on usbcam -->
   <include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
-  <!--  scan the barcode -->
+  <!-- Scan the QR code -->
   <node pkg="zbar_opencv" name="zbar_opencv" type="zbar_opencv" output="screen"/>
 </launch>

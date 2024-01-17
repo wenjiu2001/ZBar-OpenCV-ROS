@@ -1,19 +1,18 @@
 # ZBar-OpenCV-ROS
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Ubuntu:Focal](https://img.shields.io/badge/Ubuntu-Focal-brightgreen)](https://releases.ubuntu.com/focal/)
+[![ROS:Noetic](https://img.shields.io/badge/ROS-Noetic-blue)](https://wiki.ros.org/noetic/Installation/Ubuntu)
+
 "zbar_opencv" is a ROS package designed for the straightforward scanning of barcodes.
-
-## Environment
-
-- Ubuntu 20.04
-- ROS Noetic
 
 ## Requirements
 
 - ZBar
    ```
-   sudo apt-get install ros-noetic-zbar-ros*
+   sudo apt-get install libzbar-dev && pip install zbar
    ```
-- Usbcam
+- UsbCam
    ```
    sudo apt-get install ros-noetic-usb-cam*
    ```
@@ -39,11 +38,7 @@
 
 ## How to Use
 
-1. Commence the ROS node for ZBar barcode recognition :
-   ```
-   rosrun zbar_opencv zbar_opencv
-   ```
-2. Initiate Usbcam and ZBar barcode recognition :
+- Initiate usbcam and ZBar barcode recognition :
    ```
    roslaunch zbar_opencv zbar_opencv.launch
    ```
