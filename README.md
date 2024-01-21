@@ -45,6 +45,6 @@
    
 ## References
 
-- Ubuntu install of ROS Noetic (https://wiki.ros.org/noetic/Installation/Ubuntu)
-- zbar_ros (https://wiki.ros.org/zbar_ros)
-- usb_cam (https://wiki.ros.org/usb_cam)
+- [Ubuntu install of ROS Noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)
+- [zbar_ros](https://wiki.ros.org/zbar_ros)
+- [usb_cam](https://wiki.ros.org/usb_cam)
